@@ -1,0 +1,250 @@
+<html>
+<body>
+<a href="index.html"><img src="button/home.png"></a> <a href="aboutme.html"><img src="button/about me.png"></a> <a href="education.html"><img src="button/education.png"></a>   <a href="experience.html"><img src="button/experience.png"></a>   <a href="family.html"><img src="button/family.png"></a>   <a href="friends.html"><img src="button/friends.png"></a><a href="gallery.html"><img src="button/gallery.png"></a>
+<br>
+<audio controls autoplay>
+  <source src="video/ad1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<br>
+<marquee width="70%" direction="left" height="100px">
+<center><h3 style="background-color:#FAF0DC;">LOVE IS BEAUTIFUL, FRIENDSHIP IS BETTER</h3>
+</marquee></center>
+<center><video width="320" height="240" controls>
+<source src="video/cm.mp4" type="video/mp4">
+</video></center>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding:2px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<b><h2 style="color:blue;">FRIENDS BECOME MY CHOSEN FAMILY!</h2></b>
+<hr>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('MMBG')">MMBG</button>
+  <button class="btn" onclick="filterSelection('UiTM')"> UiTM</button>
+  <button class="btn" onclick="filterSelection('Bff')"> Bff</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Bff">
+    <div class="content">
+      <img src="image/fr10.jpg" alt="Bff" style="width:100%">
+      <h4>"Berkk"</h4>
+      <p><i>They are my college friends at UiTM that
+always spend time and having fun together.
+"Berkk" are their nickname.They are always
+funny, kind and friendly.</i></p>
+    </div>
+  </div>
+  <div class="column Bff">
+    <div class="content">
+    <img src="image/fr9.jpg" alt="Bff" style="width:100%">
+      <h4>My Triple I</h4>
+      <p><i>Izzati and Izni are like my bff and we 
+are also classmates, we are always together 
+from the first semester until the end of Diploma.
+Our memories are too many because we are always 
+hanging out and spending time together.</i></p>
+    </div>
+  </div>
+  <div class="column Bff">
+    <div class="content">
+    <img src="image/fr7.jpg" alt="Bff" style="width:100%">
+      <h4>MMBG's Friends</h4>
+      <p><i>They are my bestfriends from high school at MMBG.
+They are very kind, funny, friendly and loving. We 
+have been very close since 2015 until now and still
+hang out together.</i></p>
+    </div>
+</div>
+  <div class="column MMBG">
+    <div class="content">
+      <img src="image/fr15.jpg" alt="MMBG" style="width:100%">
+      <h4>MMBG Girls</h4>
+      <p><i>They are my MMBG's friends and classmates in high school.
+They are very kind and friendly.</i></p>
+    </div>
+  </div>
+<div class="row">
+  <div class="column MMBG">
+    <div class="content">
+     <img src="image/fr11.jpg" alt="MMBG" style="width:100%">
+      <h4>Nasiha, Afiah and Hazirah</h4>
+      <p><i>Both of them are so funny and kind. They are food hunter 
+and sometimes we love to picnic and eat together</i></p>
+    </div>
+</div>
+  <div class="column MMBG">
+    <div class="content">
+     <img src="image/fr2.jpg" alt="MMBG" style="width:100%">
+      <h4>Fajar,Athirah, Nazifa ,Ana</h4>
+      <p><i>Live for the moments you can’t put in words.
+Besides Chocolate, they are my favourites.</i></p>
+</div>
+ </div>
+   <div class="column UiTM">
+    <div class="content">
+      <img src="image/fr14.jpg" alt="UiTM" style="width:100%">
+      <h4>Roomates</h4>
+      <p><i>No friendship is an accident.
+I love my crazy Roomates.</i></p>
+    </div>
+  </div>
+  <div class="column UiTM">
+    <div class="content">
+    <img src="image/fr1.jpg" alt="UiTM" style="width:100%">
+      <h4>College Friends</h4>
+      <p><i>Friends don’t let friends do silly things alone.
+I’ll even send you the photos I look bad in.</i></p>
+    </div>
+  </div>
+  <div class="column UiTM">
+    <div class="content">
+    <img src="image/fr12.jpg" alt="UiTM" style="width:100%">
+      <h4>Classmates</h4>
+      <p><i>Live for the moments you can’t put in words.
+Good Times + Crazy Friends = Great Memories!</i></p>
+    </div>
+  </div>
+   
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<style>
+body {
+  background-image: url('wall/beige 10.jpg');
+}
+</style>
+</body>
+</html>
